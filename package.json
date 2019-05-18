@@ -1,0 +1,27 @@
+{
+  "name": "@xpresser/control-panel",
+  "version": "0.0.1",
+  "description": "Control Panel for Xpresser Framwork",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": "https://github.com/xpresserjs/control-panel.git",
+  "author": "Xpresserjs",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@trapcode/xjs": "^0.0.85",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.15"
+  },
+  "dependencies": {
+    "edge.js": "^1.1.4",
+    "express": "^4.17.0"
+  }
+}

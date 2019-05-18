@@ -1,0 +1,9 @@
+{
+  "namespace": "CPanel",
+  "paths": {
+    "controllers": "Controllers"
+  },
+  "extends": {
+    "RequestEngine": "Extends/RequestEngine"
+  }
+}
