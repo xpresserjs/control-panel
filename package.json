@@ -16,12 +16,12 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@trapcode/xjs": "^0.0.85",
+    "@xpresser/router": "^0.0.8",
     "cross-env": "^5.2.0",
-    "laravel-mix": "^4.0.15"
+    "laravel-mix": "^4.0.16",
+    "xpresser": "^0.0.39"
   },
   "dependencies": {
-    "edge.js": "^1.1.4",
-    "express": "^4.17.0"
+    "edge.js": "^1.1.4"
   }
 }

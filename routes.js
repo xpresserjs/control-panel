@@ -1,9 +1,13 @@
-Route = $.router;
+const Router = new (require('@xpresser/router'))();
 
-const RoutePath = 'control-panel';
+const Path = 'control-panel';
 
-Route.path('/' + RoutePath, () => {
 
-    Route.get('', 'index');
+Router.path('/' + Path, () => {
+
+    Router.get('', 'index');
 
 }).controller('Cpanel:Router');
+
+
+module.exports = Router;

@@ -1,6 +1,7 @@
 {
   "namespace": "CPanel",
   "paths": {
+    "routes": "routes.js",
     "controllers": "Controllers"
   },
   "extends": {
