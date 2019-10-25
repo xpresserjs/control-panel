@@ -16,10 +16,10 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@xpresser/router": "^0.0.8",
-    "cross-env": "^5.2.0",
-    "laravel-mix": "^4.0.16",
-    "xpresser": "^0.0.39"
+    "@xpresser/router": "^1.0.2",
+    "cross-env": "^6.0.3",
+    "laravel-mix": "^5.0.0",
+    "xpresser": "^0.1.55"
   },
   "dependencies": {
     "edge.js": "^1.1.4"
