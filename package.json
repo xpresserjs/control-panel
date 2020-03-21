@@ -9,7 +9,9 @@
     "watch": "npm run development -- --watch",
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": "https://github.com/xpresserjs/control-panel.git",
   "author": "Xpresserjs",
@@ -22,6 +24,8 @@
     "xpresser": "^0.0.39"
   },
   "dependencies": {
-    "edge.js": "^1.1.4"
-  }
+    "edge.js": "^1.1.4",
+    "snyk": "^1.301.0"
+  },
+  "snyk": true
 }
