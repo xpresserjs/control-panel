@@ -22,6 +22,6 @@
     "xpresser": "^0.0.39"
   },
   "dependencies": {
-    "edge.js": "^1.1.4"
+    "edge.js": "^5.3.2"
   }
 }
